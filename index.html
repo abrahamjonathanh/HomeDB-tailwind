@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HomeDB</title>
+    <link rel="stylesheet" href="./public/output.css" />
+  </head>
+  <body>
+    <div class="px-2 sm:px-8 md:px-16 lg:px-32">
+      <nav class="flex mt-4 sm:mt-8 justify-between">
+        <span class="font-bold text-2xl text-indigo-800">HomeDB</span>
+
+        <div class="hidden items-center sm:w-2/4 sm:flex md:w-2/5">
+          <ul class="flex justify-between w-full">
+            <li>
+              <a
+                href="#"
+                class="font-semibold text-gray-500 transition-all hover:text-gray-700"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="font-semibold text-gray-500 transition-all hover:text-gray-700"
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="font-semibold text-gray-500 transition-all hover:text-gray-700"
+                >House Type</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="font-semibold text-gray-500 transition-all hover:text-gray-700"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div
+          class="hidden items-center sm:flex sm: w-1/4 md:w-3/12 lg:w-3/12 lg:justify-end"
+        >
+          <ul class="flex justify-between w-full lg:w-9/12">
+            <li>
+              <a
+                href="#"
+                class="font-semibold text-gray-500 transition-all hover:text-gray-700"
+                >Sign up</a
+              >
+            </li>
+            <li>
+              <a
+                href="#"
+                class="bg-transparent border-2 border-indigo-800 px-4 py-2 font-semibold text-indigo-800 transition-all rounded-lg hover:text-gray-50 hover:bg-indigo-800"
+                >Log in</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <span class="flex items-center sm:hidden cursor-pointer"
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-6 h-6"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5"
+            />
+          </svg>
+        </span>
+      </nav>
+
+      <div class="lg:flex lg:mt-8 lg:items-center">
+        <div class="mt-1 max-w-lg mx-auto lg:order-2 lg:max-w-2xl">
+          <img
+            src="../assets/home.jpg"
+            alt="Home Illustration"
+            class="mix-blend-darken"
+          />
+        </div>
+        <div class="z-10 text-center lg:text-left">
+          <h1
+            class="font-extrabold text-5xl -mt-8 lg:mt-0 lg:text-6xl xl:text-7xl lg:-mr-16 text-transparent bg-clip-text bg-gradient-to-r from-indigo-800 to-sky-600"
+          >
+            Choose your dream house with us!
+          </h1>
+          <p class="mt-4 mb-8 text-lg lg:-mr-16">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+            eligendi iste maxime aperiam rem ea magnam a voluptatum repudiandae
+            vero. Vitae nisi, earum a nam quod ipsam dolor. Dicta, facilis?
+          </p>
+          <span class="flex justify-center lg:justify-start">
+            <a
+              href="#"
+              class="px-8 py-4 bg-indigo-800 text-slate-50 rounded-lg transition-all hover:bg-indigo-900"
+              >Get started</a
+            >
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="bg-gray-300 px-2 py-4 pb-8 rounded-t-[60px] mt-8 sm:px-8 md:px-16 lg:px-32 lg:rounded-t-[120px]"
+    >
+      <div class="bg-gray-300">
+        <span
+          class="text-gray-500 text-xl font-semibold block text-center mt-8 lg:mt-2 lg:text-2xl"
+          >Trusted by</span
+        >
+        <div class="flex flex-wrap lg:justify-between">
+          <div
+            class="w-2/6 flex items-center justify-center p-4 grayscale hover:grayscale-0 lg:w-1/12"
+          >
+            <img src="../assets/Companies/CocaCola.png" alt="Coca Cola" />
+          </div>
+          <div
+            class="w-2/6 flex items-center justify-center p-4 grayscale hover:grayscale-0 lg:w-1/12"
+          >
+            <img src="../assets/Companies/Google.png" alt="Google" />
+          </div>
+          <div
+            class="w-2/6 flex items-center justify-center p-4 grayscale hover:grayscale-0 lg:w-1/12"
+          >
+            <img src="../assets/Companies/Hydrococo.png" alt="Hydro Coco" />
+          </div>
+          <div
+            class="w-2/6 flex items-center justify-center p-4 grayscale hover:grayscale-0 lg:w-1/12"
+          >
+            <img src="../assets/Companies/Microsoft.png" alt="Microsoft" />
+          </div>
+          <div
+            class="w-2/6 flex items-center justify-center p-4 grayscale hover:grayscale-0 lg:w-1/12"
+          >
+            <img src="../assets/Companies/Puma.png" alt="Puma" />
+          </div>
+          <div
+            class="w-2/6 flex items-center justify-center p-4 grayscale hover:grayscale-0 lg:w-1/12"
+          >
+            <img src="../assets/Companies/Starbucks.png" alt="Starbucks" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="py-8 px-2 sm:px-8 md:px-16 lg:px-32 bg-gray-300">
+      <h1 class="text-2xl font-bold text-center lg:text-4xl mb-4">
+        How It Works
+      </h1>
+      <p class="w-8/12 text-center mx-auto block text-gray-700">
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
+        maiores nemo repellendus facilis.
+      </p>
+      <div class="flex flex-col sm:flex-row sm:justify-between mt-8">
+        <div
+          class="bg-slate-50 p-4 rounded-xl w-full sm:basis-1/3 flex flex-col items-center text-center hover:shadow-lg"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-16 h-16"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"
+            />
+          </svg>
+          <span class="text-2xl font-bold my-4">Search Property</span>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente
+            odit possimus repudiandae tempore quibusdam voluptatibus sit
+            exercitationem laborum modi iste, cupiditate incidunt.
+          </p>
+        </div>
+        <div
+          class="bg-slate-50 p-4 rounded-xl w-full sm:basis-1/3 sm:mx-4 flex flex-col items-center text-center my-4 hover:shadow-lg sm:my-0"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-16 h-16"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M4.5 12.75l6 6 9-13.5"
+            />
+          </svg>
+
+          <span class="text-2xl font-bold my-4">Choose Property</span>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo
+            debitis repudiandae maiores distinctio quo nihil culpa.
+          </p>
+        </div>
+        <div
+          class="bg-slate-50 p-4 rounded-xl w-full sm:basis-1/3 flex flex-col items-center text-center hover:shadow-lg"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="w-16 h-16"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M12 6v12m-3-2.818l.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+            />
+          </svg>
+
+          <span class="text-2xl font-bold my-4">Buy Property</span>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
+            ratione corporis, veniam in magnam vitae adipisci minus eum modi?
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="py-16 px-2 sm:px-8 md:px-16 lg:px-32 sm:flex sm:justify-between"
+    >
+      <div class="sm:w-8/12 lg:w-6/12">
+        <img src="../assets/home-2.jpg" alt="Home preview" />
+      </div>
+      <div class="sm:w-3/12 lg:w-5/12 text-center sm:text-left">
+        <h1 class="text-2xl font-bold my-4 sm:text-4xl">
+          We Provide You The Best Experience
+        </h1>
+        <p class="text-gray-500 text-lg sm:text-base mb-4">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias ex
+          facere quas doloremque, a eveniet sed impedit maiores.
+        </p>
+        <div class="flex justify-between sm:flex-wrap md:mt-8">
+          <div class="w-1/4 text-center sm:w-2/4 sm:mb-4 lg:w-1/4 lg:mb-0">
+            <h1 class="text-3xl font-bold lg:text-4xl">600</h1>
+            <p class="text-lg text-gray-500">Houses</p>
+          </div>
+          <div class="w-1/4 text-center sm:w-2/4 lg:w-1/4">
+            <h1 class="text-3xl font-bold lg:text-4xl">15</h1>
+            <p class="text-lg text-gray-500">Apartments</p>
+          </div>
+          <div class="w-1/4 text-center sm:w-2/4 lg:w-1/4">
+            <h1 class="text-3xl font-bold lg:text-4xl">219</h1>
+            <p class="text-lg text-gray-500">Shop Office</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="py-16 px-2 sm:px-8 md:px-16 lg:px-32">
+      <h1 class="text-2xl font-bold text-center xl:text-4xl mb-4">
+        What's our clients say
+      </h1>
+      <p class="text-lg text-gray-500 text-center xl:text-base">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quae
+        porro quaerat id expedita sunt commodi?
+      </p>
+      <div class="mt-8 md:flex md:justify-between">
+        <div class="shadow-lg rounded-lg p-6 md:basis-1/3">
+          <h1 class="text-xl">Eligor Pena</h1>
+          <p class="text-gray-500 text-base">Businessman</p>
+          <div class="flex">
+            <img src="../assets/star.png" alt="Star" class="w-4 mr-1" />
+            <img src="../assets/star.png" alt="Star" class="w-4 mr-1" />
+            <img src="../assets/star.png" alt="Star" class="w-4 mr-1" />
+            <img src="../assets/star.png" alt="Star" class="w-4 mr-1" />
+            <img src="../assets/star.png" alt="Star" class="w-4 mr-1" />
+          </div>
+          <p class="text-gray-500 text-lg mt-2">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid
+            voluptates beatae adipisci temporibus iusto.
+          </p>
+        </div>
+        <div class="shadow-lg rounded-lg p-6 mt-4 md:mt-0 md:basis-1/3 md:mx-4">
+          <h1 class="text-xl">Catherin Jennifer</h1>
+          <p class="text-gray-500 text-base">Influencer</p>
+          <div class="flex">
+            <img src="../assets/star.png" alt="Star" class="w-4 mr-1" />
+            <img src="../assets/star.png" alt="Star" class="w-4 mr-1" />
+            <img src="../assets/star.png" alt="Star" class="w-4 mr-1" />
+            <img src="../assets/star.png" alt="Star" class="w-4 mr-1" />
+            <img src="../assets/star.png" alt="Star" class="w-4 mr-1" />
+          </div>
+          <p class="text-gray-500 text-lg mt-2">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          </p>
+        </div>
+        <div class="shadow-lg rounded-lg p-6 mt-4 md:mt-0 md:basis-1/3">
+          <h1 class="text-xl">Steven</h1>
+          <p class="text-gray-500 text-base">Artist</p>
+          <div class="flex">
+            <img src="../assets/star.png" alt="Star" class="w-4 mr-1" />
+            <img src="../assets/star.png" alt="Star" class="w-4 mr-1" />
+            <img src="../assets/star.png" alt="Star" class="w-4 mr-1" />
+            <img src="../assets/star.png" alt="Star" class="w-4 mr-1" />
+            <img src="../assets/star.png" alt="Star" class="w-4 mr-1" />
+          </div>
+          <p class="text-gray-500 text-lg mt-2">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Voluptatum, eveniet cum!
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="py-16 px-2 sm:px-8 md:px-16 lg:px-32 lg:flex lg:justify-between"
+    >
+      <div class="lg:basis-2/3 text-center lg:text-left">
+        <p class="text-gray-500 text-lg">Contact us!</p>
+        <h1 class="text-2xl font-bold my-2 lg:text-6xl">
+          Sell your house now!
+        </h1>
+        <p class="text-gray-500 text-lg">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia!
+        </p>
+      </div>
+      <div
+        class="flex items-center justify-center mt-4 lg:basis-1/3 lg:mt-0 lg:justify-end"
+      >
+        <form action="">
+          <input
+            type="text"
+            class="bg-slate-100 outline-none p-4 rounded-l-lg placeholder:text-slate-700"
+            placeholder="example@mail.com"
+          />
+          <button
+            class="bg-indigo-800 -ml-2 p-4 text-slate-50 hover:bg-indigo-900 rounded-r-lg"
+          >
+            Contact us
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <div
+      class="pt-16 px-2 sm:px-8 md:px-16 lg:px-32 bg-indigo-900 text-slate-50 flex flex-wrap lg:flex text-center lg:text-left justify-between"
+    >
+      <div class="flex flex-col basis-auto lg:basis-3/6">
+        <h1 class="text-2xl font-bold mb-4">HomeDB</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet
+          delectus modi sit corrupti deserunt, illum quaerat quos aut!
+        </p>
+      </div>
+      <div class="basis-auto mt-6 lg:mt-0 px-4 lg:basis-1/6 lg:px-2">
+        <h1 class="text-lg font-bold mb-4">Resources</h1>
+        <div class="flex flex-col text-gray-300 transition-all">
+          <a href="" class="hover:text-gray-50">Application</a>
+          <a href="" class="hover:text-gray-50">Documentation</a>
+          <a href="" class="hover:text-gray-50">System</a>
+          <a href="" class="hover:text-gray-50">FAQ</a>
+        </div>
+      </div>
+      <div class="basis-auto mt-6 lg:basis-1/6 lg:mt-0 px-4 lg:px-2">
+        <h1 class="text-lg font-bold mb-4">Pricing</h1>
+        <div class="flex flex-col text-gray-300 transition-all">
+          <a href="" class="hover:text-gray-50">Overview</a>
+          <a href="" class="hover:text-gray-50">Premium Plans</a>
+          <a href="" class="hover:text-gray-50">Affiliate Program</a>
+          <a href="" class="hover:text-gray-50">Programs</a>
+        </div>
+      </div>
+      <div
+        class="basis-auto px-4 mt-6 lg:basis-1/6 lg:mt-0 lg:px-2 content-center"
+      >
+        <h1 class="text-lg font-bold mb-4">Company</h1>
+        <div class="flex flex-col text-gray-300 transition-all">
+          <a href="" class="hover:text-gray-50">About us</a>
+          <a href="" class="hover:text-gray-50">Blog</a>
+          <a href="" class="hover:text-gray-50">Partnership</a>
+        </div>
+      </div>
+    </div>
+    <div class="py-8 px-2 sm:px-8 md:px-16 lg:px-32 bg-indigo-900">
+      <p class="text-gray-300 text-center">
+        &copy 2023 Abraham Jonathan Hortalanus.
+      </p>
+    </div>
+  </body>
+</html>
