@@ -1,11 +1,14 @@
 {
   "name": "homedb",
   "version": "1.0.0",
+  "homepage": "https://abrahamjonathanh.github.io/HomeDB-tailwind/",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev" : "npx tailwindcss -i ./src/input.css -o ./public/output.css --watch"
+    "dev" : "npx tailwindcss -i ./src/input.css -o ./public/output.css --watch",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
